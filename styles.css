@@ -3,6 +3,9 @@
 .holder{
 	display:grid;
 	border: 2px solid blue;
-	 grid-template-row: repeat(200px 200px);
-    grid-template-columns: repeat(200px 200px);
+	 grid-template-row: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
+/* .item{
+	margin:1px;
+} */
